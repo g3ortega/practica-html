@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contactanos</title>
+        <meta charset="UTF-8">
+    </head>
+    
+    <body>
+        <header>
+            <h1>Envianos un mensaje!</h1>
+        </header>
+        
+        <br>
+        <form action='contacto.php' method='POST'>
+            
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="nombre" value='Juan' />
+            <hr> 
+            
+            <label for="password">Password</label>
+            <input type="password" name="contrasenia"/>
+            <hr> 
+            
+            <label for="">Bio</label>
+            <textarea name="bio" id="" cols="40" rows="10">
+   
+            </textarea>
+            <hr>
+            
+            <label for="">Edad: </label>
+            <input type="text" name="edad"/>
+            
+            <hr>
+            
+            <b>Genero</b>
+            
+            
+            <label>Maculino
+            <input type="radio" name="genero" value='masculino' />
+            </label>
+            
+            <label>Femenino
+            <input type="radio" name="genero" value='femenino' />
+            </label>
+            
+            <hr>
+            <b>Musica favorita</b>
+            <label>Jazz
+                <input type="checkbox" name="generom" value='jazz' checked='checked' />
+            </label>
+            
+            <label>Blues
+                <input type="checkbox" name="generom" value='blues' />
+            </label>
+            
+            <label>Classical
+                <input type="checkbox" name="generom" value='classical'/>
+            </label>
+            
+            
+            <hr>
+            <b>Lugar</b> 
+            <select name="lugar" id="">
+                <option value='managua'>Managua Centro</option>    
+                <option value='masaya'>Masaya</option>
+                <option value='carazo'>Carazo</option>
+            </select>
+            
+            <b>Comidas favoritas</b>
+            <select name="" id="" multiple='multiple'>
+                <!--<% foods.each do |food| %>-->
+                <!--    <option value='#{ food.name }'><%= food.title %></option>-->
+                <!--<% end %>-->
+                <option value='pizza'>Pizza</option>
+                <option value='lasagna'>Lasagna</option>
+                <option value='gallopinto'>Gallopinto</option>
+            </select>
+            
+            
+            <hr>
+            <input type="text" name="Apellido" placeholder='Apellido' />
+            
+            
+            
+            
+            <input type="submit" value="Enviar"/>
+        </form>
+        
+        
+    </body>
+</html>

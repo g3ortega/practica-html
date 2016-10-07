@@ -1,0 +1,78 @@
+/* Estilos genericos */
+
+h1 {
+    background-color: red;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    font-family: 'Verdana, sans-serif';
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+h2 {
+    background-color: #f2f0f2;
+}
+
+p {
+    background-color: rgba(230, 120, 14, 0.5)
+}
+
+/* Homepage / Syles */
+
+.subrayado {
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+/* Intro CSS */
+
+h1 {
+  /*margin: 20px 25px 20px 25px; */
+  margin-top: 20px;
+  margin-right: 25px;
+  margin-bottom: 20px;
+  margin-left: 25px;
+  
+  padding: 25px;
+  
+}
+
+#cuadros {
+    width: 150px;
+    height 150px;
+}
+
+#cuadro1 {
+    color: white;
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+#cuadro2 {
+    color: white;
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    
+}
+
+#cuadro3 {
+    color: white;
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+    margin: 15px;
+    padding: 15px;
+}
+
+/* Navegacion */
+
